@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Personal Web Page</title>
+  <style>
+    body {
+      font-family: sans-serif;
+    }
+
+    h1 {
+      text-align: center;
+    }
+
+    img {
+      float: left;
+      margin-right: 20px;
+      border: 1px solid #000;
+      padding: 5px;
+    }
+
+    span {
+      color: green;
+      font-weight: bold;
+    }
+    
+    .graphic-link {
+      display: block;
+      background-image: url('swimming-icon.png');
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: 50px 50px;
+      padding-left: 0px; 
+      margin-bottom: 10px; 
+    }
+
+    .graphic-link2 {
+      display: block;
+      background-image: url('video games.png');
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: 50px 50px;
+      padding-left: 0px; 
+      margin-bottom: 10px; 
+    }
+
+    .graphic-link a,
+    .graphic-link2 a {
+      color: #000;
+      text-decoration: none;
+    }
+
+    .hobbies-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: left: ;
+    }
+  </style>
+</head>
+<body>
+  <h1>Jim Karamolis</h1>
+
+  <img src="Picture1.jpg" alt="Photo of myself">
+
+  <p>Jim is a dedicated student at <span>Byrne Creek Community School</span>, leads a well-rounded life filled with various interests and passions. On the soccer field, Jim's talent shines through as he showcases his agility, teamwork, and competitive spirit. Whether it's scoring goals or defending the net, he embraces the camaraderie and discipline that come with being part of a team. Off the field, Jim finds solace and excitement in the digital realm, where he immerses himself in the world of video games, exploring virtual worlds and honing his strategic thinking and problem-solving skills. Additionally, Jim understands the importance of maintaining a healthy lifestyle and actively engages in activities such as working out and swimming, which not only keep him physically fit but also help him stay focused and energized.</p>
+
+  <p>Beyond sports and leisure, Jim's curiosity and passion extend to the realm of coding. With a keen interest in technology, he spends his free time diving into the world of programming, expanding his knowledge and honing his coding abilities. Whether it's developing websites or creating software applications, Jim relishes the challenges that coding presents and is constantly seeking opportunities to enhance his skills. Through his diverse range of hobbies and academic pursuits, Jim demonstrates a well-rounded and driven approach to life, embodying the values of curiosity, perseverance, and continuous growth.</p>
+
+  <h2>Hobbies and Interests</h2>
+  <div class="hobbies-container">
+    <ul style="text-align: left;">
+        <li><a href="https://sefasoccer.com/?gclid=Cj0KCQjwyLGjBhDKARIsAFRNgW_dIUdQ78nJgjW46z5akxG6NJCsQI8SeG5egIEUuPbpyqMHXUUj8vUaAgR_EALw_wcB" target="_blank">Soccer</a></li>
+        <li><a href="https://www.w3schools.com/">Coding</a></li>
+        <li class="graphic-link">
+          <a href="https://www.burnaby.ca/recreation-and-arts/programs-and-activities/daily-activities/swim-lessons" target="_blank">
+            <img src="swimming-icon.png" alt="Swimming" style="width: 150px; height: 150px;" />
+          </a>
+        </li>
+        <li class="graphic-link2">
+          <a href="https://www.riotgames.com/en" target="_blank">
+            <img src="video games.png" alt="Video Games" style="width: 150px; height: 150px;" />
+          </a>
+        </li>
+      </ul>            
+  </div>
+</body>
+</html>
